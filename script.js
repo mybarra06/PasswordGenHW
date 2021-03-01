@@ -1,13 +1,13 @@
-// Assignment Code
+// Assignment Code// character variable
 var generateBtn = document.querySelector("#generate");
 var specialCharacters = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","[","{","]","}",";",":","/","?","'"];
 var numericCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var uppercaseCharacters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowercaseCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-//grabbing the above genBtn
+//grabbing the above genBtn in var
 console.log(generateBtn)
 
-
+//function writepassword works once when generarebtn is used
 function writePassword() {
   var password = generatePassword();
   console.log(password)
@@ -32,7 +32,8 @@ var length= prompt("Password length. Enter 8-128")
   var special= confirm("Must have special character")
   console.log(special)
 
-
+// makes sure var is equal together and if not finds another option that isnt 
+//same var but makes it equal
 if(uppercase === true){
   allPossible += uppercaseCharacters.join("")
 }
