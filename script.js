@@ -21,6 +21,7 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword(){
 var allPossible = ""
 var actualPassword = ""
+//prompt is what lets the user know what to check
 var length= prompt("Password length. Enter 8-128")
   console.log(length) 
   var uppercase= confirm("Must have uppercase letter")
