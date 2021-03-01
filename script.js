@@ -24,6 +24,7 @@ var actualPassword = ""
 //prompt is what lets the user know what to check
 var length= prompt("Password length. Enter 8-128")
   console.log(length) 
+//each var below will also bring up a box with "" remark
   var uppercase= confirm("Must have uppercase letter")
   console.log(uppercase)
   var lowercase= confirm("Must have lowercase letter")
